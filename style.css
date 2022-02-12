@@ -1,0 +1,111 @@
+/* Andrew Reeson */
+/* 2/12/21 */
+/* bioSite: Development */
+
+/* Main Page */
+html {
+    background-color: #ede5d8aa;
+}
+
+#container {
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* Nav Bar */
+li {
+    font-weight: 300;
+    font-size: 18px;
+    display: inline-block;
+}
+
+nav {
+    background-color: #eadecf;
+    font-family: "Oswald";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b9894b;
+}
+
+li a:active {
+    color: black;
+}
+
+a {
+
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Pic/text side by side */
+.aligned {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    padding: 40px;
+    padding-right: 10%;
+}
+
+img {
+    height: 460px;
+}
+
+/* Images */
+#image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+#image-gallery img {
+    height: 250px;
+}
+
+/* Hobbies Section*/
+.aligned {
+    display: flex;
+    align-items: center;
+}
+
+.aligned span {
+    padding: 40px;
+}
+
+.aligned img {
+    height: 500px;
+}
+
+/* Fonts */
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: "Oswald";
+}
+
+p {
+    text-align: center;
+    font-weight: 300;
+    font-family: Arial;
+}
