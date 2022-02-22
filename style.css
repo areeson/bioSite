@@ -1,6 +1,9 @@
 /* Andrew Reeson */
-/* 2/12/21 */
+/* 2/21/21 */
 /* bioSite: Development */
+
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap);
 
 /* Main Page */
 html {
@@ -24,7 +27,6 @@ html {
 /* Nav Bar */
 nav {
     background-color: #eadecf;
-    font-family: "Oswald";
 }
 
 nav ul {
@@ -46,6 +48,7 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Oswald;
 }
 
 nav li a:hover {
@@ -79,7 +82,7 @@ img {
     height: 460px;
 }
 
-/* Images */
+/* Home Page Images */
 #image-gallery {
     display: flex;
     justify-content: center;
@@ -114,14 +117,14 @@ h1 {
     text-align: center;
     font-weight: 300;
     font-size: 50px;
-    font-family: "Oswald";
+    font-family: Oswald;
 }
 
 header h1 {
     text-align: center;
     font-weight: 300;
     font-size: 50px;
-    font-family: "Oswald";
+    font-family: Oswald;
 }
 
 p {
@@ -133,7 +136,7 @@ p {
 /* Footer */
 footer {
     background-color: #eadecf;
-    font-family: "Oswald";
+    font-family: Oswald;
     position: absolute;
     bottom: 0;
     width: 100%;
